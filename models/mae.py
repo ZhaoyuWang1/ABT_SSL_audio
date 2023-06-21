@@ -17,7 +17,7 @@ import torch.nn as nn
 import numpy as np
 import scipy
 from timm.models.vision_transformer import DropPath, Mlp
-from timm.models.layers.helpers import to_2tuple
+from timm.layers.helpers import to_2tuple
 from models.pos_embed import get_2d_sincos_pos_embed, get_sinusoid_encoding_table
 
 
